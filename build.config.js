@@ -30,7 +30,7 @@ module.exports = {
     ctpl: [ 'src/common/**/*.tpl.html' ],
 
     html: [ 'src/index.html' ],
-    less: 'src/less/main.less'
+    scss: [ 'src/sass/main.scss' ]
   },
 
   /**
