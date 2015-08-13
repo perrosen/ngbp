@@ -1,6 +1,6 @@
 # [ngBoilerplate](http://joshdmiller.github.com/ng-boilerplate) [![Build Status](https://api.travis-ci.org/ngbp/ngbp.png?branch=v0.3.2-release)](https://travis-ci.org/ngbp/ngbp)
 
-An opinionated kickstarter for [AngularJS](http://angularjs.org) projects.
+An opinionated kickstarter for [AngularJS](http://angularjs.org) projects. - now even more opinionated. Added SASS supported and included the SASS version of Bootstrap. Also included grunt connect for o simple webserver and added like reload using cennect and watch out of the box so no need for the live reload script anymore.
 
 ***
 
@@ -314,31 +314,7 @@ expected, open the `bin/index.html` file in your browser. Voila!
 
 ### Live Reload!
 
-`ngBoilerplate` also includes [Live Reload](http://livereload.com/), so you no
-longer have to refresh your page after making changes! You need a Live Reload
-browser plugin for this:
-
-- Chrome - [Chrome Webstore](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei)
-- Firefox - [Download from Live Reload](http://download.livereload.com/2.0.8/LiveReload-2.0.8.xpi)
-- Safari - [Download from Live Reload](http://download.livereload.com/2.0.9/LiveReload-2.0.9.safariextz)
-- Internet Explorer - Surely you jest.
-
-Note that if you're using the Chrome version with `file://` URLs (as is the
-default with `ngBoilerplate`) you need to tell Live Reload to allow it. Go to
-`Menu -> Tools -> Extensions` and check the "Allow access to file URLs" box next
-to the Live Reload plugin.
-
-When you load your page, click the Live Reload icon in your toolbar and
-everything should work magically. w00t!
-
-If you'd prefer to not install a browser extension, then you must add the
-following to the end of the `body` tag in `index.html`:
-
-```html
-<script src="http://localhost:35729/livereload.js"></script>
-```
-
-Boom!
+Live reload works out of the box without the need of the live reload script. Just run grunt watch and the site should open in your browser.
 
 ## Roadmap
 
